@@ -1,21 +1,21 @@
-.cabecalho{
-background-color: var(--cor-principal);
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: relative;
+.cabecalho {
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
-.cabecalho__menu{
-width: 24px;
-height: 24px;
-background-image: url("../img/menu.svg");
-background-repeat: no-repeat;
-background-position: center;
-display: inline-block;
+.cabecalho__menu {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,57 +27,57 @@ display: inline-block;
 
 .container__imagem {
     padding: 1em;
-    padding: ;
+    width: 40px;
+}
 
-
-
+.cabecalho-lista {
     display: none;
-    background-color: var ();
+    background-color: var(--cor-de-fundo);
+    position: absolute;
+    top: 100%;
+    width: 50vw;
+}
 
+.container__botao:checked~.cabecalho-lista {
+    display: block;
+}
 
+.container__botao {
+    display: none;
+}
 
+.cabecacalho-lista-titulo{
+    padding: 1em;
+    color: var(--preto);
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+.cabecalho-lista-item{
+    padding: 1em;
+    color: var(--azul);
+}
 
-    .container-botao.container-botao:checked
+.container-titulo{
+    display: none;
+}
 
+.menu__lista-item{
+    background: var(--cor-principal);
+    color: var(--azul);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
 
+.opcoes {
+    display: none;
+}
 
-
-
-
-
-    .cabecalho-lista-titulo{
-        
-    }
-
-
-
-
-.cabecalho-lista-
-
-
-
-
-
-
-
-
-
-
-    .menu-lista-item{
-
-    }
-
-
-
-
-
-    .opcoes{
-        display: none;
-    }
-
-    .container__texto{}
-
+.container__texto {
+    display: none;
+}
 
 
     @media screen and (min-width: 1024px) {
