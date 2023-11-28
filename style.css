@@ -11,7 +11,7 @@
     --cor-secundaria: #A3108B;
     --cor-3: #E53470;
     --cor-4: #FF7656;
-    --cor-5: #FFB84D;
+    --cor-5: #000000;
     --cor-6: #f5f5f5;
     --cor-de-fundo: #EBECEE;
     --branco:#FFFFFF;
@@ -19,7 +19,7 @@
     --roxo: #9949B4;
     --amarelo: #F1F10E;
     --azul: rgb(255, 0, 255);
-    --azul-degrade: linear-gradient(#DD00FF,#16cff811);;
+    --azul-degrade: linear-gradient(#DD00FF,#f0f0f0);;
     --fonte-principal: "Roboto";
     --fonte-secundaria: "Prompt";
 }
