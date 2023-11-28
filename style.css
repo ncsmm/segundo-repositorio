@@ -7,19 +7,19 @@
 
 :root{
     
-    --cor-principal:#262597;
+    --cor-principal:#DD00FF;
     --cor-secundaria: #A3108B;
     --cor-3: #E53470;
     --cor-4: #FF7656;
     --cor-5: #FFB84D;
-    --cor-6: #F9F871;
+    --cor-6: #f5f5f5;
     --cor-de-fundo: #EBECEE;
     --branco:#FFFFFF;
     --preto: #000000;
     --roxo: #9949B4;
     --amarelo: #F1F10E;
-    --azul: #3d89ec;
-    --azul-degrade: linear-gradient(#262597,#16CFF8);;
+    --azul: rgb(255, 0, 255);
+    --azul-degrade: linear-gradient(#DD00FF,#16cff811);;
     --fonte-principal: "Roboto";
     --fonte-secundaria: "Prompt";
 }
